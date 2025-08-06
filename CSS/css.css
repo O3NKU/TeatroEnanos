@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #13124f;
+  background-image: url("img/");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  flex: 1;
+  width: 100%;
+  max-width: 1200px;
+  background-color: #260635;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.header {
+  background-color: #fdda12;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.nav button {
+  background-color: #ff693f;
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  color: #000;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.nav button:hover {
+  background-color: #fff176;
+}
+
+.section {
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.bienvenido {
+  background-color: #4900b0;
+  color: #ffffff;
+}
+
+.destacado {
+  background-color: #ffd75e;
+  color: #000000;
+}
+
+.section img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #4f4600;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+.titulo-obra {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.center-content {
+  text-align: center;
+}
+
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.volver-btn {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #ff693f;
+  font-size: 1.1rem;
+}
+
+.volver-btn:hover {
+  color: #fff176;
+}
+
